@@ -2,6 +2,9 @@
 
 Copy these files into your /etc/ansible directory and:
 
+- install roles from requirements.txt file
+```sudo ansible-galaxy install -r requirements.txt```
+
 - install sshpass program
 ```sudo apt-get install sshpass```
 
